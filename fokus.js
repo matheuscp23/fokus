@@ -73,7 +73,7 @@ function alterarContexto(contexto) {
 }
 const contagem =() => {
     if(temporizador <= 0){
-        //stopSom.play();
+        stopSom.play();
         alert('Tempo finalizado!')
         parar();
         return
